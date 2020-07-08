@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class='form1'>
+        <form action="http://api.openweathermap.org/">
+            <table class="header" /*align="center" * />
+            <tr>
+                <td style="padding-left:30px; ">
+                    <p id="search" style="font-size: x-large;"><b>MY WEATHER</b></p>
+                </td>
+                <td align="right" style="padding-right:20px;">
+                    <lable>
+                        <b> CITY:</b>
+                        <input name="t" id="inp" type="search" value1="Chisinau">
+                        <input type="hidden" name1="apikey" id="apk" value="be58d91bf7618541368fc75b8e629af1">
+                    </lable>
+                </td>
+            </tr>
+            </table>
+        </form>
+    </div>
+    <div class="menulist">
+        <ul class="menu">
+            <li><a href="#" id="today">Today</a></li>
+            <li><a href="#" id="forecast">5 day forecast</a></li>
+        </ul>
+    </div>
+
+    <div class='list' id="list"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- <script type="text/javascript" src="city.list.json"></script>
+    <script src="js/moment.min.js"></script> -->
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

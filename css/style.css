@@ -1,0 +1,147 @@
+.menu {
+    list-style-type: none;
+    padding-left: 30px;
+    margin-left: 0;
+    margin: 0;
+    width: 575px;
+    position: absolute;
+    top: 7%;
+}
+.menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #5757a0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    border-bottom: 5px solid #353573;
+}
+.menu li {
+    display: inline;
+    vertical-align: middle;
+}
+#err {
+    border-radius: 8px;
+    width: 600px;
+    height: 400px;
+}
+.ndiv {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    width: auto;
+    height: 200px;
+    vertical-align: middle;
+    align-items: center;
+    left: 50%;
+}
+.newdiv {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    width: auto;
+    height: 300px;
+    vertical-align: middle;
+    align-items: center;
+    left: 50%;
+}
+.newsdiv {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    width: auto;
+    height: 200px;
+    vertical-align: middle;
+    align-items: center;
+    left: 50%;
+    display: inline-block;
+}
+.newdivf {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    width: 90;
+    height: 230px;
+    vertical-align: middle;
+    align-items: center;
+    left: 50%;
+    display: inline-block;
+}
+.form1 {
+    margin: 15px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+.head {
+    width: auto;
+    height: 20px;
+    border: 10px;
+    margin-top: 10px;
+    
+}
+.header{
+    margin-top: 30px;
+    width: 600px;
+}
+.list, .hourly{
+    align-items: center;
+    width: 600px;
+    height: auto;
+    top: 30px;
+    left: 5px;
+    border: 1px solid black;
+    display: inline-flexbox; 
+    margin: 0px;
+    margin-left: 15px;
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: lightcyan;
+    margin-top: 30px;
+}
+.menulist {
+    background-color: rgb(200, 235, 235);
+    align-items: center;
+    width: 590px;
+    height: 50px;
+    top: 30px;
+    left: 5px;
+    margin-left: 15px;
+    border: 1px solid black;
+    display: inline-flexbox; 
+    margin: 0;
+    margin-left: 15px;
+    vertical-align: middle;
+    border-radius: 10px;
+    position: relative;
+}
+#inp, #sel, #search {
+    width: 200px;
+    height: 30px;
+}
+.ndiv img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    vertical-align: text-top;
+    justify-content: center;
+}
+.ndiv table {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+    justify-content: center;
+}
